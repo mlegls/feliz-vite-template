@@ -7,8 +7,7 @@
     "prestart": "dotnet tool restore",
     "dev": "dotnet fable watch src -s --run vite",
     "build": "dotnet fable src --run vite build",
-    "preview": "dotnet fable src --run vite preview",
-    "tauri": "tauri"
+    "preview": "dotnet fable src --run vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -17,7 +16,6 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^2.0.1",
-    "@tauri-apps/cli": "^1.0.5",
     "daisyui": "^2.24.0",
     "autoprefixer": "^10.4.8",
     "postcss": "^8.4.16",

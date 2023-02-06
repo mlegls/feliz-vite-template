@@ -30,3 +30,4 @@ build/
 .lsp
 *.fs.js
 *.fs.js.map
+.fake

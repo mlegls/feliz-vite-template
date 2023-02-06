@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/mlegls/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/mlegls/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.3.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/Users/mlegls/.nuget/packages/" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgFable_Core Condition=" '$(PkgFable_Core)' == '' ">/Users/mlegls/.nuget/packages/fable.core/3.2.3</PkgFable_Core>
+    <PkgFable_Browser_Dom Condition=" '$(PkgFable_Browser_Dom)' == '' ">/Users/mlegls/.nuget/packages/fable.browser.dom/2.2.0</PkgFable_Browser_Dom>
+    <PkgFeliz Condition=" '$(PkgFeliz)' == '' ">/Users/mlegls/.nuget/packages/feliz/1.64.0</PkgFeliz>
+    <PkgFeliz_DaisyUI Condition=" '$(PkgFeliz_DaisyUI)' == '' ">/Users/mlegls/.nuget/packages/feliz.daisyui/2.0.0</PkgFeliz_DaisyUI>
+    <PkgFable_Promise Condition=" '$(PkgFable_Promise)' == '' ">/Users/mlegls/.nuget/packages/fable.promise/3.1.3</PkgFable_Promise>
+  </PropertyGroup>
+</Project>

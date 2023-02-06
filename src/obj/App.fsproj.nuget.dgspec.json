@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mlegls/dev/compose-ai/src/App.fsproj": {}
+  },
+  "projects": {
+    "/Users/mlegls/dev/compose-ai/src/App.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mlegls/dev/compose-ai/src/App.fsproj",
+        "projectName": "App",
+        "projectPath": "/Users/mlegls/dev/compose-ai/src/App.fsproj",
+        "packagesPath": "/Users/mlegls/.nuget/packages/",
+        "outputPath": "/Users/mlegls/dev/compose-ai/src/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mlegls/dev/compose-ai/NuGet.Config",
+          "/Users/mlegls/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/6.0.400/FSharp/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1603",
+            "NU1604",
+            "NU1605",
+            "NU1608"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Fable.Browser.Dom": {
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "generatePathProperty": true
+            },
+            "Fable.Core": {
+              "target": "Package",
+              "version": "[3.2.3, )",
+              "generatePathProperty": true
+            },
+            "Fable.Promise": {
+              "target": "Package",
+              "version": "[3.1.3, )",
+              "generatePathProperty": true
+            },
+            "Feliz": {
+              "target": "Package",
+              "version": "[1.64.0, )",
+              "generatePathProperty": true
+            },
+            "Feliz.DaisyUI": {
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
